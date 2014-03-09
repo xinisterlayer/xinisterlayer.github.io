@@ -63,31 +63,31 @@ header{
 	padding-left:0;
 }
 
-h1,h3{
+#blog-name,.blog-title{
 	text-transform:uppercase;
 	font-family: "Arial Narrow", Arial, sans-serif;
 	font-weight:bold;
 }
 
-h1{
+#blog-name{
 	font-size:4em;
 }
 
-header nav{
+.main-nav{
 	text-align:right;
 	margin-top:-20px;
 
 
 }
 
-nav li a{
+.nav-link a{
 	color:black;
 	text-decoration:none;
 	font-family: helvetica;
 	font-weight: bold;
 }
 
-.navlink{
+.top-link{
 	display: inline-block;
 	margin:0 10px;
 }
@@ -99,22 +99,22 @@ aside{
 
 }
 
-.bloglink{
+.blog-link{
 	margin-bottom:20px;
 
 }
 
 
-article{
+.blog-entry{
 	margin-bottom:40px;
 }
 
-h5{
+.blog-date{
 	font-weight:bold;
 
 }
 
-h3{
+.blog-title{
 	font-size:2em;
 	padding-bottom:10px;
 }
