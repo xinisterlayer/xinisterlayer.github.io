@@ -82,7 +82,7 @@ h2{
 }
 
 nav{
-	background:brown;
+	background:#330000;
 	padding:10px;
 
 }
@@ -115,13 +115,13 @@ article p{
 }
 
 h3{
-	color:brown;
+	color:#330000;
 	font-family:helvetica;
 	font-weight:bold;
 }
 
 footer{
-	background:brown;
+	background:#330000;
 	text-align:center;
 	padding:2em;
 	color: beige;
