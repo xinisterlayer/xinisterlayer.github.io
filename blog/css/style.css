@@ -121,11 +121,29 @@ header{
 	margin:0 10px;
 }
 
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 aside{
 	width:20%;
 	padding:40px;
 	padding-left:0;
+	float: left;
 
+}
+
+
+.blog-section{
+	float:right;
+	width:73%;
+	padding-top:40px;
+	padding-right:20px;
 }
 
 .blog-link{
@@ -152,4 +170,13 @@ footer{
 	border-top:1px solid black;
 	padding-top:10px;
 	font-weight:bold;
+}
+
+@media all and (max-width: 699px) and (min-width: 520px) {
+h1 {
+	color:red;
+}
+
+
+
 }
