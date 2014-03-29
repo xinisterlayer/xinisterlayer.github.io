@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@font-face {
+    font-family: 'league_gothicCnRg';
+    src: url('../type/leaguegothic-condensedregular-webfont.eot');
+    src: url('../type/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/leaguegothic-condensedregular-webfont.woff') format('woff'),
+         url('../type/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
+         url('../type/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../type/leaguegothic-regular-webfont.eot');
+    src: url('../type/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../type/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../type/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family:helvetica;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+
+
+header{
+    padding:2em;
+    padding-top:4em;
+}
+
+
+
+#xin-name{
+    font-weight:bold;
+    font-size:3em;
+    padding-left:2em;
+}
+
+h1 a{
+    text-decoration: none;
+    color:black;
+}
+
+.main-nav{
+    text-align:right;
+    margin-top:-20px;
+    padding-right:4em;
+}
+
+.nav-link a{
+    color:black;
+    text-decoration:none;
+
+}
+
+li a:hover{
+    color:red;
+}
+
+.nav-link{
+    display:inline-block;
+    margin:0 30px;
+
+}
+
+section{
+    width:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    white-space:nowrap;
+}
+
+section img{
+    margin:0;
+    display: inline-block;
+    height: auto;
+}
+
+.tall-img{
+    width:300px;
+}
+
+.wide-img{
+    width:533px;
+}
+
+footer {
+    clear:both;
+    padding-left:8em;
+    padding-right:8em;
+    padding-top:3em;
+}
+
+
+#copyright{
+    float:left;
+}
+#social-media-bottom-bar {
+    float:right;
+    margin-top: -10px;  
+}
+
+#social-media-bottom-bar li {
+    display: inline-block;
+}
+
+#social-media-bottom-bar li img {
+    width: 32px;
+}
